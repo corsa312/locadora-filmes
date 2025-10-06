@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     background-color: #111;
     color: #eee;
-}
-
-header {
+  }
+  
+  header {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,75 +23,75 @@ header {
     background: linear-gradient(to right, #000, #1a0000);
     border-bottom: 2px solid #e50914;
     z-index: 1000;
-}
-
-header h1 {
+  }
+  
+  header h1 {
     color: #e50914;
-}
-
-.main-nav ul {
+  }
+  
+  .main-nav ul {
     display: flex;
     list-style: none;
-}
-
-.main-nav li {
+  }
+  
+  .main-nav li {
     margin-left: 20px;
-}
-
-.main-nav a {
+  }
+  
+  .main-nav a {
     color: #eee;
     text-decoration: none;
     font-weight: bold;
-}
-
-.main-nav a:hover {
+  }
+  
+  .main-nav a:hover {
     color: #e50914;
-}
-
-#main-content {
+  }
+  
+  #main-content {
     margin-top: 90px;
     padding: 20px;
-}
-
-h2 {
+  }
+  
+  h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #e50914;
-}
-
-.movie-grid {
+  }
+  
+  .movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-}
-
-.movie-ranking {
+  }
+  
+  .movie-ranking {
     background: #1a1a1a;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.movie-ranking:hover {
+  }
+  
+  .movie-ranking:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(229, 9, 20, 0.6);
-}
-
-.movie-poster {
+  }
+  
+  .movie-poster {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
-}
-
-.locadora-actions {
+  }
+  
+  .locadora-actions {
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-}
-
-.locadora-actions button {
+  }
+  
+  .locadora-actions button {
     background: #e50914;
     color: #fff;
     border: none;
@@ -100,21 +100,30 @@ h2 {
     cursor: pointer;
     font-weight: bold;
     transition: background 0.3s, transform 0.2s;
-}
-
-.locadora-actions button:hover {
+  }
+  
+  .locadora-actions button:hover {
     background: #ff4d4f;
     transform: scale(1.05);
-}
-
-.status-vendido {
+  }
+  
+  .trailer-btn {
+    background: #007bff;
+  }
+  
+  .trailer-btn:hover {
+    background: #3399ff;
+  }
+  
+  .status-vendido {
     color: #ff4d4f;
     font-weight: bold;
-}
-
-footer {
+  }
+  
+  footer {
     text-align: center;
     padding: 20px;
     color: #888;
     margin-top: 30px;
-}
+  }
+  

@@ -24,3 +24,7 @@ function simularLocacao(filmeId, tipoAcao) {
   statusElement.textContent = mensagem;
   alert(mensagem);
 }
+
+function abrirTrailer(url) {
+  window.open(url, "_blank");
+}

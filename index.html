@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Locadora De filmes</title>
+  <title>Locadora De Filmes</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,252 +25,280 @@
 
     <!-- Filme 1 -->
     <section class="movie-ranking" id="filme1">
-        <h3>Avatar (2009)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" class="movie-poster">
-        <p>Em Pandora, humanos exploram o planeta e entram em conflito com os Na'vi.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme1','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme1','Vender')">Vender</button>
-            <p id="status-filme1">Disponível</p>
-        </div>
+      <h3>Avatar (2009)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" class="movie-poster">
+      <p>Em Pandora, humanos exploram o planeta e entram em conflito com os Na'vi.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme1','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme1','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=5PSNL1qE6VY')">🎥 Trailer</button>
+        <p id="status-filme1">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 2 -->
     <section class="movie-ranking" id="filme2">
-        <h3>Vingadores: Ultimato (2019)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg" class="movie-poster">
-        <p>Os Vingadores se unem uma última vez para derrotar Thanos e restaurar o universo.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme2','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme2','Vender')">Vender</button>
-            <p id="status-filme2">Disponível</p>
-        </div>
+      <h3>Vingadores: Ultimato (2019)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg" class="movie-poster">
+      <p>Os Vingadores se unem uma última vez para derrotar Thanos e restaurar o universo.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme2','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme2','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=TcMBFSGVi1c')">🎥 Trailer</button>
+        <p id="status-filme2">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 3 -->
     <section class="movie-ranking" id="filme3">
-        <h3>Oppenheimer (2023)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" class="movie-poster">
-        <p>A história do físico que liderou o projeto da primeira bomba atômica.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme3','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme3','Vender')">Vender</button>
-            <p id="status-filme3">Disponível</p>
-        </div>
+      <h3>Oppenheimer (2023)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" class="movie-poster">
+      <p>A história do físico que liderou o projeto da primeira bomba atômica.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme3','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme3','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=bK6ldnjE3Y0')">🎥 Trailer</button>
+        <p id="status-filme3">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 4 -->
     <section class="movie-ranking" id="filme4">
-        <h3>Duna (2021)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg" class="movie-poster">
-        <p>Paul Atreides enfrenta seu destino em um planeta desértico repleto de perigos.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme4','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme4','Vender')">Vender</button>
-            <p id="status-filme4">Disponível</p>
-        </div>
+      <h3>Duna (2021)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg" class="movie-poster">
+      <p>Paul Atreides enfrenta seu destino em um planeta desértico repleto de perigos.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme4','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme4','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=8g18jFHCLXk')">🎥 Trailer</button>
+        <p id="status-filme4">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 5 -->
     <section class="movie-ranking" id="filme5">
-        <h3>Shrek (2001)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg" class="movie-poster">
-        <p>O ogro rabugento parte em uma jornada para resgatar a princesa Fiona.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme5','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme5','Vender')">Vender</button>
-            <p id="status-filme5">Disponível</p>
-        </div>
+      <h3>Shrek (2001)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg" class="movie-poster">
+      <p>O ogro rabugento parte em uma jornada para resgatar a princesa Fiona.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme5','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme5','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=CwXOrWvPBPk')">🎥 Trailer</button>
+        <p id="status-filme5">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 6 -->
     <section class="movie-ranking" id="filme6">
-        <h3>Corra! (2017)</h3>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCe10cdK1jK18N05vEwxf6NeKzf2WpVfAvCA&s" class="movie-poster">
-        <p>Um jovem negro descobre segredos perturbadores na família de sua namorada.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme6','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme6','Vender')">Vender</button>
-            <p id="status-filme6">Disponível</p>
-        </div>
+      <h3>Corra! (2017)</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCe10cdK1jK18N05vEwxf6NeKzf2WpVfAvCA&s" class="movie-poster">
+      <p>Um jovem negro descobre segredos perturbadores na família de sua namorada.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme6','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme6','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=sRfnevzM9kQ')">🎥 Trailer</button>
+        <p id="status-filme6">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 7 -->
     <section class="movie-ranking" id="filme7">
-        <h3>Pantera Negra (2018)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg" class="movie-poster">
-        <p>T’Challa retorna a Wakanda para assumir o trono e enfrentar inimigos do passado.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme7','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme7','Vender')">Vender</button>
-            <p id="status-filme7">Disponível</p>
-        </div>
+      <h3>Pantera Negra (2018)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg" class="movie-poster">
+      <p>T’Challa retorna a Wakanda para assumir o trono e enfrentar inimigos do passado.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme7','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme7','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=xjDjIWPwcPU')">🎥 Trailer</button>
+        <p id="status-filme7">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 8 -->
     <section class="movie-ranking" id="filme8">
-        <h3>A Forma da Água (2017)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/iLYLADGA5oKGM92Ns1j9CDgk3iI.jpg" class="movie-poster">
-        <p>Uma faxineira muda se apaixona por uma criatura aquática em cativeiro.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme8','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme8','Vender')">Vender</button>
-            <p id="status-filme8">Disponível</p>
-        </div>
+      <h3>A Forma da Água (2017)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/iLYLADGA5oKGM92Ns1j9CDgk3iI.jpg" class="movie-poster">
+      <p>Uma faxineira muda se apaixona por uma criatura aquática em cativeiro.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme8','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme8','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=XFYWazblaUA')">🎥 Trailer</button>
+        <p id="status-filme8">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 9 -->
     <section class="movie-ranking" id="filme9">
-        <h3>Mad Max: Estrada da Fúria (2015)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg" class="movie-poster">
-        <p>Em um mundo pós-apocalíptico, Max se une a Furiosa em uma fuga eletrizante.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme9','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme9','Vender')">Vender</button>
-            <p id="status-filme9">Disponível</p>
-        </div>
+      <h3>Mad Max: Estrada da Fúria (2015)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg" class="movie-poster">
+      <p>Em um mundo pós-apocalíptico, Max se une a Furiosa em uma fuga eletrizante.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme9','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme9','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=hEJnMQG9ev8')">🎥 Trailer</button>
+        <p id="status-filme9">Disponível</p>
+      </div>
     </section>
 
     <!-- Filme 10 -->
     <section class="movie-ranking" id="filme10">
-        <h3>Lego Batman: O Filme (2017)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg" class="movie-poster">
-        <p>O Cavaleiro das Trevas precisa enfrentar seus medos e aceitar a ajuda dos amigos em uma Gotham feita
-            de blocos.
-        </p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme10','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme10','Vender')">Vender</button>
-            <p id="status-filme10">Disponível</p>
-        </div>
+      <h3>Lego Batman: O Filme (2017)</h3>
+      <img src="https://image.tmdb.org/t/p/w500/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg" class="movie-poster">
+      <p>O Cavaleiro das Trevas precisa enfrentar seus medos e aceitar a ajuda dos amigos.</p>
+      <div class="locadora-actions">
+        <button onclick="simularLocacao('filme10','Emprestar')">Emprestar</button>
+        <button onclick="simularLocacao('filme10','Vender')">Vender</button>
+        <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=rGQUKzSDhrg')">🎥 Trailer</button>
+        <p id="status-filme10">Disponível</p>
+      </div>
     </section>
 
-    <!-- Filme 11 -->
-    <section class="movie-ranking" id="filme11">
-        <h3>Homem-Aranha: Sem Volta Para Casa (2021)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" class="movie-poster">
-        <p>Peter Parker pede ajuda ao Doutor Estranho, mas o multiverso sai do controle.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme11','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme11','Vender')">Vender</button>
-            <p id="status-filme11">Disponível</p>
+        <!-- Filme 11 -->
+        <section class="movie-ranking" id="filme11">
+            <h3>Homem-Aranha: Sem Volta Para Casa (2021)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" class="movie-poster">
+            <p>Peter Parker pede ajuda ao Doutor Estranho, mas o multiverso sai do controle.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme11','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme11','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=JfVOs4VSpmA')">🎥 Trailer</button>
+              <p id="status-filme11">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 12 -->
+          <section class="movie-ranking" id="filme12">
+            <h3>Chernobyl (2019)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" class="movie-poster">
+            <p>Dramatização do desastre nuclear de 1986 em Chernobyl e seus impactos humanos.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme12','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme12','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=s9APLXM9Ei8')">🎥 Trailer</button>
+              <p id="status-filme12">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 13 -->
+          <section class="movie-ranking" id="filme13">
+            <h3>Toy Story (1995)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg" class="movie-poster">
+            <p>Woody e Buzz Lightyear descobrem o valor da amizade em uma aventura animada.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme13','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme13','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=v-PjgYDrg70')">🎥 Trailer</button>
+              <p id="status-filme13">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 14 -->
+          <section class="movie-ranking" id="filme14">
+            <h3>Moana (2016)</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg" class="movie-poster">
+            <p>Uma jovem determinada parte em busca de salvar sua ilha com a ajuda de Maui.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme14','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme14','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=LKFuXETZUsI')">🎥 Trailer</button>
+              <p id="status-filme14">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 15 -->
+          <section class="movie-ranking" id="filme15">
+            <h3>A Vida é Bela (1997)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/74hLDKjD5aGYOotO6esUVaeISa2.jpg" class="movie-poster">
+            <p>Durante a guerra, um pai usa sua imaginação para proteger o filho dos horrores.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme15','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme15','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=pAYEQP8gx3w')">🎥 Trailer</button>
+              <p id="status-filme15">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 16 -->
+          <section class="movie-ranking" id="filme16">
+            <h3>O Lobo de Wall Street (2013)</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png" class="movie-poster">
+            <p>A ascensão e queda de Jordan Belfort no mundo das finanças em Nova York.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme16','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme16','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=iszwuX1AK6A')">🎥 Trailer</button>
+              <p id="status-filme16">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 17 -->
+          <section class="movie-ranking" id="filme17">
+            <h3>Divertida Mente (2015)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/lRHE0vzf3oYJrhbsHXjIkF4Tl5A.jpg" class="movie-poster">
+            <p>As emoções de uma garota ganham vida e precisam trabalhar juntas para ajudá-la.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme17','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme17','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=seMwpP0yeu4')">🎥 Trailer</button>
+              <p id="status-filme17">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 18 -->
+          <section class="movie-ranking" id="filme18">
+            <h3>Wall-E (2008)</h3>
+            <img src="https://br.web.img2.acsta.net/medias/nmedia/18/91/31/05/20139182.jpg" class="movie-poster">
+            <p>Um robô solitário encontra o verdadeiro propósito quando conhece a robô EVA.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme18','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme18','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=alIq_wG9FNk')">🎥 Trailer</button>
+              <p id="status-filme18">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 19 -->
+          <section class="movie-ranking" id="filme19">
+            <h3>O Rei Leão (1994)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg" class="movie-poster">
+            <p>O jovem Simba precisa enfrentar o passado e assumir o trono da savana.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme19','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme19','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=7TavVZMewpY')">🎥 Trailer</button>
+              <p id="status-filme19">Disponível</p>
+            </div>
+          </section>
+      
+          <!-- Filme 20 -->
+          <section class="movie-ranking" id="filme20">
+            <h3>Barbie (2023)</h3>
+            <img src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg" class="movie-poster">
+            <p>Barbie embarca em uma jornada de autodescoberta fora do mundo cor-de-rosa.</p>
+            <div class="locadora-actions">
+              <button onclick="simularLocacao('filme20','Emprestar')">Emprestar</button>
+              <button onclick="simularLocacao('filme20','Vender')">Vender</button>
+              <button class="trailer-btn" onclick="abrirTrailer('https://www.youtube.com/watch?v=pBk4NYhWNMM')">🎥 Trailer</button>
+              <p id="status-filme20">Disponível</p>
+            </div>
+          </section>
+      
         </div>
-    </section>
-
-    <!-- Filme 12 -->
-    <section class="movie-ranking" id="filme12">
-        <h3>Chernobyl (2019)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" class="movie-poster">
-        <p>Dramatização do desastre nuclear de 1986 em Chernobyl e seus impactos humanos e ambientais.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme12','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme12','Vender')">Vender</button>
-            <p id="status-filme12">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 13 -->
-    <section class="movie-ranking" id="filme13">
-        <h3>Toy Story (1995)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg" class="movie-poster">
-        <p>Woody e Buzz Lightyear descobrem o valor da amizade em uma aventura animada.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme13','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme13','Vender')">Vender</button>
-            <p id="status-filme13">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 14 -->
-    <section class="movie-ranking" id="filme14">
-        <h3>Moana (2016)</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg" class="movie-poster">
-        <p>Uma jovem determinada parte em busca de salvar sua ilha com a ajuda de Maui.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme14','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme14','Vender')">Vender</button>
-            <p id="status-filme14">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 15 -->
-    <section class="movie-ranking" id="filme15">
-        <h3>A Vida é Bela (1997)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/74hLDKjD5aGYOotO6esUVaeISa2.jpg" class="movie-poster">
-        <p>Durante a guerra, um pai usa sua imaginação para proteger o filho dos horrores.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme15','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme15','Vender')">Vender</button>
-            <p id="status-filme15">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 16 -->
-    <section class="movie-ranking" id="filme16">
-        <h3>O Lobo de Wall Street (2013)</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png"
-            class="movie-poster">
-        <p>A ascensão e queda de Jordan Belfort no mundo das finanças em Nova York.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme16','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme16','Vender')">Vender</button>
-            <p id="status-filme16">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 17 -->
-    <section class="movie-ranking" id="filme17">
-        <h3>Divertida Mente (2015)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/lRHE0vzf3oYJrhbsHXjIkF4Tl5A.jpg" class="movie-poster">
-        <p>As emoções de uma garota ganham vida e precisam trabalhar juntas para ajudá-la.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme17','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme17','Vender')">Vender</button>
-            <p id="status-filme17">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 18 -->
-    <section class="movie-ranking" id="filme18">
-        <h3>Wall-E (2008)</h3>
-        <img src="https://br.web.img2.acsta.net/medias/nmedia/18/91/31/05/20139182.jpg" class="movie-poster">
-        <p>Um robô solitário encontra o verdadeiro propósito quando conhece a robô EVA.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme18','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme18','Vender')">Vender</button>
-            <p id="status-filme18">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 19 -->
-    <section class="movie-ranking" id="filme19">
-        <h3>O Rei Leão (1994)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg" class="movie-poster">
-        <p>O jovem Simba precisa enfrentar o passado e assumir o trono da savana.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme19','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme19','Vender')">Vender</button>
-            <p id="status-filme19">Disponível</p>
-        </div>
-    </section>
-
-    <!-- Filme 20 -->
-    <section class="movie-ranking" id="filme20">
-        <h3>Barbie (2023)</h3>
-        <img src="https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg" class="movie-poster">
-        <p>Barbie embarca em uma jornada de autodescoberta fora do mundo cor-de-rosa.</p>
-        <div class="locadora-actions">
-            <button onclick="simularLocacao('filme20','Emprestar')">Emprestar</button>
-            <button onclick="simularLocacao('filme20','Vender')">Vender</button>
-            <p id="status-filme20">Disponível</p>
-        </div>
-    </section>
-
+      </main>
+      
+      <footer>
+        <p>&copy; 2025 Locadora De Filmes - Trazendo o melhor para sua tela!</p>
+      </footer>
+      
+      <script src="locadora.js"></script>
+      </body>
+      </html>
+      
   </div>
 </main>
 
 <footer>
-  <p>&copy; 2025 Locadora De Filmes Trazendo o melhor para sua tela!</p>
+  <p>&copy; 2025 Locadora De Filmes - Trazendo o melhor para sua tela!</p>
 </footer>
 
 <script src="locadora.js"></script>
